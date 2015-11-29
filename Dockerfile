@@ -1,6 +1,6 @@
 FROM java:latest
 
-COPY JavaHelloWorld.java
+COPY JavaHelloWorld.java .
 
 RUN javac JavaHelloWorld.java
 
